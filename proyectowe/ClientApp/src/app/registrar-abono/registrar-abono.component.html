@@ -1,10 +1,38 @@
-<h1 style="color: azure;">Registrar abono</h1>
-<form class="row g-3">    
-  <div class="p-3 mb-2 bg-light text-dark rounded">
-    <label for="input-group-text" class="form-label">Tarifa diaria</label>
-    <input type="number" class="form-control" id="input-group-text">
-  </div>  
-  <div class="col-12 rounded">
-    <button type="button" class="btn btn-primary">Abonar</button>
+<form>
+  <div class="mb-3">
+    <label for=" " class="form-label text-white">Cedula del cliente</label>
+    <input type="text" class="form-control" id="" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text"></div>
   </div>
+  <div class="mb-3">
+    <label for=" " class="form-label text-white">Nombre</label>
+    <input type="text" class="form-control" id="">
+  </div>
+  <div class="mb-3">
+    <label for=" " class="form-label text-white">Telefono</label>
+    <input type="text" class="form-control" id="">
+  </div>
+  <div class="mb-3">
+    <label for=" " class="form-label text-white">Direccion</label>
+    <input type="text" class="form-control" id="">
+  </div>
+  <div class="mb-3">
+    <label for=" " class="form-label text-white">Ocupacion</label>
+    <input type="text" class="form-control" id="">
+  </div>
+  <div class="mb-3">
+    <label for="disabledSelect" class="form-label text-white">Tipo de prestamo</label>
+    <select id="disabledSelect" class="form-select form-control">
+      <option>Seleccionar</option>
+      <option>Diario</option>
+      <option>Semanal</option>
+      <option>Quincenal</option>
+      <option>Mensual</option>
+    </select>
+  </div>
+  <div class="mb-3">
+    <label for=" " class="form-label text-white">Valor de prestamo</label>
+    <input type="text" class="form-control" id="">
+  </div>
+  <button type="submit" class="btn btn-primary text-white">Registrar</button>
 </form>
