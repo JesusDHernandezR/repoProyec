@@ -7,8 +7,6 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
-import { CounterComponent } from './counter/counter.component';
-import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { CrearUsuarioComponent } from './crear-usuario/crear-usuario.component';
 import { RegistrarAbonoComponent } from './registrar-abono/registrar-abono.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
@@ -24,8 +22,6 @@ import { CuentasComponent } from './cuentas/cuentas.component';
     AppComponent,
     NavMenuComponent,
     HomeComponent,
-    CounterComponent,
-    FetchDataComponent,
     CrearUsuarioComponent,
     RegistrarAbonoComponent,
     NosotrosComponent,
@@ -42,8 +38,6 @@ import { CuentasComponent } from './cuentas/cuentas.component';
     FormsModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
-      { path: 'counter', component: CounterComponent },
-      { path: 'fetch-data', component: FetchDataComponent },
       {path: 'crear-usuario', component:CrearUsuarioComponent},
       {path: 'registrar-abono', component:RegistrarAbonoComponent},
       {path: 'nosotros', component:NosotrosComponent },
